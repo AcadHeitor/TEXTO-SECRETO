@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo ao CODIFICADOR E DECODIFICADOR DE MENSAGENS SECRETAS!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo_site.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="imagens/rosto_feliz.png" alt="rosto feliz">
+            <h1>Mensagem Codificada:</h1>
+        </header>
+
+        <div class="container-input">
+
+            <div class="input">
+
+                <textarea id="input-text" placeholder="Por favor digite neste espaço o seu texto secreto:" ></textarea>
+                <p>EI! ESPERE UM POUCO! Este programa só aceita textos com letras minúsculas e sem acentos, capitch?</p>
+            </div>
+            
+        <div id="output">
+            <img src="imagens/desenho_rosto.png" alt="desenho rosto">
+            <h2>O texto que você digitar irá aparecer aqui!</h2>
+            <span>Digite o texto que você quer criptografar(embaralhar) ou descriptografar(desembaralhar). </span> 
+
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="container-btn">
+            <button onclick="criptografia()" class="btn-criptografia">CRIPTOGRAFAR >:D</button>
+            <button onclick="descriptografia()" class="btn-descriptografia">DESCRIPTOGRAFAR :O</button>
+
+        </div>
+     </div>
+
+
+    </main>
+
+        <footer class="rodape">
+
+            <div class="icons">
+                
+                <a href="http://"><ion-icon name="thumbs-up-outline"></ion-icon></a>
+                <a href="http://"><ion-icon name="thumbs-down-outline"></ion-icon></a>
+                
+            </div>
+            <h3>Gostou? Aperta no "laike"! Yeah!! xD</h3>
+            <h4>Desenvolvido por Heitor Machado</h4>
+
+        </footer>
+
+
+
+    <script src="script.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
